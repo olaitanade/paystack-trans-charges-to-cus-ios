@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PAYSTACKTRANSCHARGESTOCUS"
   spec.version      = "0.0.1"
-  spec.summary      = "A CocoaPods library written in swift which provides the implementation to the formula provided by the Paystack support team as regards passing the Paystack transaction charge to customers."
+  spec.summary      = "A CocoaPods library written in swift for pass paystack transactions to customers."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+    A CocoaPods library written in swift which provides the implementation to the formula provided by the Paystack support team as regards passing the Paystack transaction charge to customers.
                    DESC
 
   spec.homepage     = "https://github.com/olaitanade/paystack-trans-charges-to-cus-ios"
@@ -38,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,6 +66,8 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
+  spec.ios.deployment_target = "12.1"
+  spec.swift_version = "4.2"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
