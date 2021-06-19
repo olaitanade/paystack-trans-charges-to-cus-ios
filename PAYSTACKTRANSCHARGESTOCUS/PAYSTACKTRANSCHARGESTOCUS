@@ -1,0 +1,22 @@
+//
+//  PaystackTransChargesToCus.swift
+//  PAYSTACKTRANSCHARGESTOCUS
+//
+//  Created by Adewoye Kolade on 19/06/2021.
+//
+
+import Foundation
+
+public final class PAYSTACKTRANSCHARGESTOCUS {
+
+    let name = "PaystackTransChargesToCus"
+    
+    public func add(a: Int, b: Int) -> Int {
+        return a + b
+    }
+    
+    public func sub(a: Int, b: Int) -> Int {
+        return a - b
+    }
+    
+}

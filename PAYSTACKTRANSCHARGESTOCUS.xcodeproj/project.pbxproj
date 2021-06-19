@@ -14,6 +14,7 @@
 		DF67CD4C267DE46200C93A45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CD4B267DE46200C93A45 /* ContentView.swift */; };
 		DF67CD4E267DE46700C93A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF67CD4D267DE46700C93A45 /* Assets.xcassets */; };
 		DF67CD51267DE46700C93A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF67CD50267DE46700C93A45 /* Preview Assets.xcassets */; };
+		DF67CD59267DF08900C93A45 /* PAYSTACKTRANSCHARGESTOCUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CD58267DF08900C93A45 /* PAYSTACKTRANSCHARGESTOCUS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		DF67CD4D267DE46700C93A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF67CD50267DE46700C93A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF67CD52267DE46700C93A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF67CD58267DF08900C93A45 /* PAYSTACKTRANSCHARGESTOCUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAYSTACKTRANSCHARGESTOCUS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				DF67CD2C267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUS.h */,
 				DF67CD2D267DE2D100C93A45 /* Info.plist */,
+				DF67CD58267DF08900C93A45 /* PAYSTACKTRANSCHARGESTOCUS.swift */,
 			);
 			path = PAYSTACKTRANSCHARGESTOCUS;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				TargetAttributes = {
 					DF67CD28267DE2D000C93A45 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					DF67CD31267DE2D100C93A45 = {
 						CreatedOnToolsVersion = 12.5;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF67CD59267DF08900C93A45 /* PAYSTACKTRANSCHARGESTOCUS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +424,7 @@
 		DF67CD3E267DE2D100C93A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -434,6 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Adetayo-Olaitan.PAYSTACKTRANSCHARGESTOCUS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,6 +449,7 @@
 		DF67CD3F267DE2D100C93A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -465,6 +473,7 @@
 		DF67CD41267DE2D100C93A45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PAYSTACKTRANSCHARGESTOCUSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,6 +491,7 @@
 		DF67CD42267DE2D100C93A45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PAYSTACKTRANSCHARGESTOCUSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
