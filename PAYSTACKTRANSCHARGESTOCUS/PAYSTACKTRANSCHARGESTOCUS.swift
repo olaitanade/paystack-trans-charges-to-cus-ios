@@ -2,7 +2,7 @@
 //  PAYSTACKTRANSCHARGESTOCUS.swift
 //  PAYSTACKTRANSCHARGESTOCUS
 //
-//  Created by Adewoye Kolade on 19/06/2021.
+//  Created by Adetayo Olaitan on 19/06/2021.
 //
 
 import Foundation

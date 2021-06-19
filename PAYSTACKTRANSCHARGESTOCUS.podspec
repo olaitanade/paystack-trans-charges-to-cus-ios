@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PAYSTACKTRANSCHARGESTOCUS"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PAYSTACKTRANSCHARGESTOCUS."
+  spec.summary      = "A CocoaPods library written in swift which provides the implementation to the formula provided by the Paystack support team as regards passing the Paystack transaction charge to customers."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/PAYSTACKTRANSCHARGESTOCUS"
+  spec.homepage     = "https://github.com/olaitanade/paystack-trans-charges-to-cus-ios"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/PAYSTACKTRANSCHARGESTOCUS.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/olaitanade/paystack-trans-charges-to-cus-ios.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "PAYSTACKTRANSCHARGESTOCUS", "PAYSTACKTRANSCHARGESTOCUS/**/*.{h,m,swift}"
+  spec.exclude_files = "PAYSTACKTRANSCHARGESTOCUS/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "PAYSTACKTRANSCHARGESTOCUS/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
