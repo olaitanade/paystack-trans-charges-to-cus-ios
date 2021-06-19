@@ -10,6 +10,10 @@
 		DF67CD33267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF67CD29267DE2D000C93A45 /* PAYSTACKTRANSCHARGESTOCUS.framework */; };
 		DF67CD38267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CD37267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.swift */; };
 		DF67CD3A267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUS.h in Headers */ = {isa = PBXBuildFile; fileRef = DF67CD2C267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF67CD4A267DE46200C93A45 /* PaystackTransChargesToCusExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CD49267DE46200C93A45 /* PaystackTransChargesToCusExamplesApp.swift */; };
+		DF67CD4C267DE46200C93A45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CD4B267DE46200C93A45 /* ContentView.swift */; };
+		DF67CD4E267DE46700C93A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF67CD4D267DE46700C93A45 /* Assets.xcassets */; };
+		DF67CD51267DE46700C93A45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF67CD50267DE46700C93A45 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,12 @@
 		DF67CD32267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAYSTACKTRANSCHARGESTOCUSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF67CD37267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAYSTACKTRANSCHARGESTOCUSTests.swift; sourceTree = "<group>"; };
 		DF67CD39267DE2D100C93A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF67CD47267DE46200C93A45 /* PaystackTransChargesToCusExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaystackTransChargesToCusExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF67CD49267DE46200C93A45 /* PaystackTransChargesToCusExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaystackTransChargesToCusExamplesApp.swift; sourceTree = "<group>"; };
+		DF67CD4B267DE46200C93A45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF67CD4D267DE46700C93A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF67CD50267DE46700C93A45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF67CD52267DE46700C93A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF67CD44267DE46200C93A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +72,7 @@
 			children = (
 				DF67CD2B267DE2D000C93A45 /* PAYSTACKTRANSCHARGESTOCUS */,
 				DF67CD36267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests */,
+				DF67CD48267DE46200C93A45 /* PaystackTransChargesToCusExamples */,
 				DF67CD2A267DE2D000C93A45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +82,7 @@
 			children = (
 				DF67CD29267DE2D000C93A45 /* PAYSTACKTRANSCHARGESTOCUS.framework */,
 				DF67CD32267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.xctest */,
+				DF67CD47267DE46200C93A45 /* PaystackTransChargesToCusExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +103,26 @@
 				DF67CD39267DE2D100C93A45 /* Info.plist */,
 			);
 			path = PAYSTACKTRANSCHARGESTOCUSTests;
+			sourceTree = "<group>";
+		};
+		DF67CD48267DE46200C93A45 /* PaystackTransChargesToCusExamples */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CD49267DE46200C93A45 /* PaystackTransChargesToCusExamplesApp.swift */,
+				DF67CD4B267DE46200C93A45 /* ContentView.swift */,
+				DF67CD4D267DE46700C93A45 /* Assets.xcassets */,
+				DF67CD52267DE46700C93A45 /* Info.plist */,
+				DF67CD4F267DE46700C93A45 /* Preview Content */,
+			);
+			path = PaystackTransChargesToCusExamples;
+			sourceTree = "<group>";
+		};
+		DF67CD4F267DE46700C93A45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CD50267DE46700C93A45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +175,23 @@
 			productReference = DF67CD32267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DF67CD46267DE46200C93A45 /* PaystackTransChargesToCusExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF67CD53267DE46700C93A45 /* Build configuration list for PBXNativeTarget "PaystackTransChargesToCusExamples" */;
+			buildPhases = (
+				DF67CD43267DE46200C93A45 /* Sources */,
+				DF67CD44267DE46200C93A45 /* Frameworks */,
+				DF67CD45267DE46200C93A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaystackTransChargesToCusExamples;
+			productName = PaystackTransChargesToCusExamples;
+			productReference = DF67CD47267DE46200C93A45 /* PaystackTransChargesToCusExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +205,9 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					DF67CD31267DE2D100C93A45 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DF67CD46267DE46200C93A45 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -168,6 +227,7 @@
 			targets = (
 				DF67CD28267DE2D000C93A45 /* PAYSTACKTRANSCHARGESTOCUS */,
 				DF67CD31267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests */,
+				DF67CD46267DE46200C93A45 /* PaystackTransChargesToCusExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +247,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF67CD45267DE46200C93A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF67CD51267DE46700C93A45 /* Preview Assets.xcassets in Resources */,
+				DF67CD4E267DE46700C93A45 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,6 +271,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF67CD38267DE2D100C93A45 /* PAYSTACKTRANSCHARGESTOCUSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF67CD43267DE46200C93A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF67CD4C267DE46200C93A45 /* ContentView.swift in Sources */,
+				DF67CD4A267DE46200C93A45 /* PaystackTransChargesToCusExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +496,48 @@
 			};
 			name = Release;
 		};
+		DF67CD54267DE46700C93A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaystackTransChargesToCusExamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PaystackTransChargesToCusExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adetayo-Olaitan.PaystackTransChargesToCusExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF67CD55267DE46700C93A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaystackTransChargesToCusExamples/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PaystackTransChargesToCusExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Adetayo-Olaitan.PaystackTransChargesToCusExamples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +564,15 @@
 			buildConfigurations = (
 				DF67CD41267DE2D100C93A45 /* Debug */,
 				DF67CD42267DE2D100C93A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF67CD53267DE46700C93A45 /* Build configuration list for PBXNativeTarget "PaystackTransChargesToCusExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF67CD54267DE46700C93A45 /* Debug */,
+				DF67CD55267DE46700C93A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
